@@ -1,0 +1,1418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar1 {
+    background-color: green;
+}
+
+#navbar2 {
+    /* background-color: aquamarine; */
+    margin: 0 30px;
+}
+
+#navbar3 {
+    font-size: 28px;
+    color: white;
+}
+
+#navbarSupportedContent {
+    /* background-color: blanchedalmond; */
+
+}
+
+#navbar4 {
+    /* background-color: blueviolet; */
+    margin-left: auto;
+}
+
+.nav-item {
+    /* background-color: blueviolet; */
+
+}
+
+.nav-link {
+    /* background-color: azure; */
+    font-size: 22px;
+    margin-right: 25px;
+    color: white;
+
+}
+
+#navbar6 {
+    /* background-color: antiquewhite; */
+
+
+}
+
+#navbar7 {
+    font-size: 22px;
+    margin-right: 25px;
+    color: white;
+}
+
+#navbar8 {
+    padding: 0px 35px;
+    border-radius: 35px;
+    background-color: orange;
+    color: black;
+}
+
+/* main content */
+#main1 {
+    /* background-color: aquamarine; */
+
+    padding: 35px;
+
+}
+
+#main2 {
+    /* background-color: red; */
+}
+
+#main3 {
+    background-color: rgba(255, 68, 0, 0.434);
+    border-radius: 25px;
+}
+
+#main3a {
+    font-size: 35px;
+    margin-top: 35px;
+    margin-left: 25px;
+    color: white;
+    line-height: 55px;
+
+}
+
+#main3a span {
+    color: brown;
+}
+
+#main3b {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 35px;
+    color: white;
+
+}
+
+#sold {
+    /* background-color: aqua; */
+    margin-left: 40px;
+    margin-top: 25px;
+
+}
+
+.sold2 {
+    font-size: 22px;
+    color: brown;
+    font-weight: 500;
+    margin-right: 45px;
+}
+
+.sold2 sub {
+    color: white;
+}
+
+
+#main4 {
+    /* background-color: blue; */
+}
+
+#main5 {
+    border-radius: 25px;
+}
+
+#main6 img,
+#main7 img,
+#main8 img {
+    border-radius: 25px;
+}
+
+/* main media queri*/
+
+@media (max-width: 992px) {
+    #main3a {
+        font-size: 25px;
+
+
+    }
+
+    #main3b {
+        font-size: 21px;
+
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    #main3a {
+        font-size: 18px;
+        line-height: 35px;
+        margin-top: 0;
+
+    }
+
+    #main3 {
+        padding: 25px;
+    }
+
+    #main3b {
+        font-size: 15px;
+        margin-top: 5px;
+
+    }
+
+    #main1 {
+        margin-top: -25px;
+    }
+
+    #main3 #main3a {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    #sold {
+
+        margin-left: 15px;
+        margin-top: 0;
+
+    }
+
+    #sold #sold2 {
+        font-size: 14px;
+    }
+
+    #sold #sold2 sub {
+        font-size: 8px;
+    }
+
+    #main4 {
+        width: 100vw;
+        margin: 0;
+
+    }
+
+
+}
+
+@media (min-width:992px) and (max-width:1400px) {
+    #main3a {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 15px;
+
+    }
+
+    #main3b {
+        font-size: 25px;
+        margin-top: 5px;
+
+    }
+
+    #main1 {
+        margin-top: -25px;
+    }
+
+    #sold {
+
+        margin-top: 0px;
+        font-size: 15px;
+
+    }
+
+    #sold2 {
+        margin: 0;
+    }
+}
+
+/* insurance */
+
+
+
+#insurance1 {
+    /* background-color: aquamarine; */
+    margin-top: -30px;
+}
+
+#insurance2 {
+    /* background-color: bisque; */
+    margin-left: 10px;
+    margin-right: 25px;
+
+}
+
+#insurance4 {
+    background-color: green;
+    display: flex;
+    color: white;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+
+}
+
+#insurance4 div {
+    display: flex;
+    /* background-color: rgb(16, 223, 223); */
+    margin-top: 25px;
+
+}
+
+#insurance4 h1 {
+    /* border: 5px solid red; */
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+#insurance4 i {
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 100px;
+    /* margin-left: 35px; */
+
+}
+
+#insurance3 {
+    background-color: aqua;
+    border-radius: 25px;
+    padding-bottom: 15px;
+}
+
+#insurance3a {
+    /* background-color: bisque; */
+    display: flex;
+    margin-left: 50px;
+    margin-top: 25px;
+
+
+}
+
+#insurance3a div {
+
+    margin-right: 65px;
+}
+
+#insurance3a div i {
+    font-size: 35px;
+}
+
+#insurance3a div p {
+    font-size: 16px;
+}
+
+#insurance3b {
+    /* background-color: bisque; */
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#insurance3b div {
+    margin-right: 40px;
+}
+
+#insurance3b div input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    line-height: 15px;
+}
+
+#insurance3b div button {
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    padding: 3px 35px;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+/* insurance media queri */
+@media (min-width: 992px) and (max-width:1440px) {
+    #insurance3 {
+
+        border-radius: 25px;
+        padding-bottom: 15px;
+    }
+
+    #insurance3a {
+        /* background-color: bisque; */
+        display: flex;
+        margin-left: 0px;
+        margin-top: 25px;
+
+
+    }
+
+    #insurance3a div {
+
+        margin-right: 65px;
+    }
+
+    #insurance3b {
+
+        display: flex;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #insurance3b div {
+        margin-right: 15px;
+    }
+
+
+
+    #insurance4 h1 {
+        /* border: 5px solid red; */
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 35px;
+    }
+
+    #insurance4 i {
+        /* border: 1px solid red; */
+        margin-top: 15px;
+        /* margin-bottom: 25px; */
+        font-size: 80px;
+        /* margin-left: 35px; */
+
+    }
+
+}
+
+@media (max-width: 992px) {
+    #insurance2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    #insurance3 {
+        padding: 15px;
+    }
+
+    #insurance3a {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #insurance3b {
+        display: block;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    #insurance1 {
+        margin-top: -15px;
+    }
+
+    #insurance2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #insurance3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #insurance4 {
+        border-radius: 0;
+    }
+
+    #insurance4 h1 {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    #insurance4 i {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 80px;
+    }
+
+    #insurance3a {
+        display: block;
+        text-align: center;
+    }
+
+    #insurance3b {
+        display: block;
+        text-align: center;
+    }
+
+    #insurance3a div {
+        margin-right: 45px;
+    }
+
+    #insurance3b div {
+        margin-right: 20px;
+    }
+
+    #insurance3b div input {
+        padding: 5px 8px;
+    }
+}
+
+/* insurance mwdia queri ends */
+#categories {
+    /* background-color: aquamarine; */
+}
+
+#categories h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+#categories span {
+    color: rgb(236, 98, 6);
+}
+
+#categories1 {
+    padding: 0 85px;
+    /* background-color: bisque; */
+    display: flex;
+    margin-left: -35px;
+
+
+
+}
+
+#categories2 {
+    background-color: rgb(252, 191, 78);
+    margin: 0 10px;
+    border-radius: 35px;
+
+
+}
+
+#categories2 div {
+    text-align: center;
+    padding: 45px 0;
+}
+
+#categories2 div i {
+    font-size: 45px;
+    color: white;
+}
+
+#categories2 main,
+#categories3 main,
+#categories4 main {
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 60px;
+    padding: 8px 0 0 8px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0 auto;
+    margin-bottom: -25px;
+}
+
+#categories2 main i,
+#categories3 main i,
+#categories4 main i {
+    font-size: 45px;
+    color: white;
+
+}
+
+#categories3 {
+    background-color: rgb(252, 191, 78);
+    margin: 0 10px;
+    border-radius: 35px;
+
+
+}
+
+#categories3 div {
+    text-align: center;
+    padding: 45px 0;
+}
+
+#categories3 div i {
+    font-size: 45px;
+    color: white;
+}
+
+#categories4 {
+    background-color: rgb(252, 191, 78);
+    margin: 0 10px;
+    border-radius: 35px;
+
+
+}
+
+#categories4 div {
+    text-align: center;
+    padding: 45px 0;
+}
+
+#categories4 div i {
+    font-size: 45px;
+    color: white;
+}
+
+/* categories media queries */
+@media (max-width:576px) {
+    #categories1 {
+        padding: 0;
+        /* background-color: bisque; */
+        display: block;
+        margin-left: 0;
+    }
+
+    #categories2 main,
+    #categories3 main,
+    #categories4 main {
+        /* border: 1px solid black; */
+        height: 60px;
+        width: 60px;
+        padding: 8px 0 0 8px;
+        border-radius: 50%;
+        background-color: green;
+        position: relative;
+        top: 20px;
+        margin-bottom: 25px;
+    }
+
+    #categories2 main i,
+    #categories3 main i,
+    #categories4 main i {
+        font-size: 45px;
+        color: white;
+
+    }
+
+
+
+
+}
+
+@media (min-width:577px)and (max-width:768px) {
+    #categories1 {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media (min-width:768px)and (max-width:992px) {
+    #categories1 {
+        padding: 0;
+        display: flex;
+        margin-left: 0;
+        margin-right: 25px;
+
+    }
+
+    #categories4 div,
+    #categories3 div,
+    #categories2 div {
+        text-align: center;
+        padding: 25px 0px;
+    }
+
+    #categories4,
+    #categories2,
+    #categories3 {
+        margin: 0 5px;
+    }
+}
+
+/* clients */
+
+#clients {
+    /* background: rgb(206, 204, 204); */
+    margin-top: 50px;
+
+}
+
+#clients1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+#clients1 h1 span {
+    color: brown;
+}
+
+#clients1 #btn {
+    padding: 0 65px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    background-color: green;
+
+
+}
+
+#clients2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+#clients2a img {
+    border-radius: 35px;
+    width: 100%;
+}
+
+#clients2b {
+    margin-top: 0;
+    /* background-color: aqua; */
+}
+
+#clients2c {
+
+    text-align: center;
+}
+
+#clients2c div {
+    background-color: bisque;
+    margin: 10px;
+    padding: 15px 0px;
+    width: 70%;
+    margin-left: 20%;
+    border-radius: 25px;
+}
+
+#clients2c div button {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    #clients {
+        /* background-color: aquamarine; */
+        margin-top: 25px;
+        margin-left: 0px;
+
+    }
+
+    #clients1 {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: blanchedalmond; */
+        padding: 0 45px;
+        margin-left: 0;
+
+
+    }
+
+    #clients1 h1 {
+        font-size: 27px;
+    }
+
+    #clients1 h1 span {
+        color: brown;
+
+    }
+
+    #clients1 #btn {
+        padding: 5px 35px;
+        border: none;
+        border-radius: 35px;
+        color: white;
+        background-color: green;
+        font-size: 15px;
+
+
+    }
+
+    #clients2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 15px;
+
+    }
+
+
+    #clients2c {
+        /* background-color: aqua; */
+        width: 100vw;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    #clients2c div {
+        background-color: bisque;
+        margin-left: 0%;
+        width: 100%;
+        padding: 5px 25px;
+        border-radius: 25px;
+    }
+
+
+}
+
+@media (min-width:577px) and (max-width:769px) {
+    #clients {
+        /* background-color: aquamarine; */
+        margin-top: 25px;
+        margin-left: 55px;
+
+    }
+
+    #clients1 {
+        display: flex;
+        margin-left: 0;
+    }
+
+    #clients1 h1 {
+        font-size: 23px;
+    }
+
+    #clients1 h1 span {
+        color: brown;
+
+    }
+
+    #clients1 #btn {
+        padding: 0px 35px;
+        border: none;
+        border-radius: 35px;
+        color: white;
+        background-color: green;
+        font-size: 15px;
+
+
+    }
+
+    #clients2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 15px;
+
+    }
+
+
+    #clients2c {
+        /* background-color: aqua; */
+        width: 100vw;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    #clients2c div {
+        background-color: bisque;
+        margin-left: 0%;
+        width: 100%;
+        padding: 5px 25px;
+        border-radius: 25px;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    #clients {
+        margin-top: 25px;
+    }
+
+    #clients1 h1 {
+        font-size: 30px;
+    }
+
+    #clients2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /* background-color: aquamarine; */
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    #clients2a {
+        width: 100%;
+    }
+
+    #clients2a img {
+        width: 100%;
+    }
+
+    #clients2b {
+        margin-top: 0;
+    }
+
+
+    #clients2c {
+        margin-top: 0;
+        /* border: 1px solid black; */
+    }
+
+
+    #clients2c div {
+        width: 100%;
+        margin-left: 0;
+        padding: 5px;
+
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1440px) {
+    #clients {
+        margin-top: 25px;
+    }
+
+    #clients1 h1 {
+        font-size: 30px;
+    }
+
+    #clients2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /* background-color: aquamarine; */
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    #clients2a {
+        width: 100%;
+    }
+
+    #clients2a img {
+        width: 100%;
+    }
+
+    #clients2c {
+        margin-top: 0;
+        /* border: 1px solid black; */
+    }
+
+
+    #clients2c div {
+        width: 100%;
+        margin-left: 0;
+        padding: 5px;
+
+    }
+
+}
+
+/* committee */
+#committee {
+    background-color: rgba(5, 126, 167, 0.613);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 25px 70px;
+    padding: 70px 35px 70px 70px;
+    border-radius: 35px;
+    color: white;
+}
+
+
+
+#committee2 {
+    display: flex;
+}
+
+#committee2 #arrow {
+    border: 4px solid white;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 25px;
+
+}
+
+#committee2 #arrow i {
+    font-size: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#committee3 {
+    display: flex;
+    margin-top: 15px;
+}
+
+#committee3 span {
+    border: 4px solid black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 25px;
+    background-color: white;
+
+
+}
+
+#committee3 span i {
+    font-size: 35px;
+    padding: 8px;
+    color: black;
+}
+
+#committee4 {
+    margin-top: 35px;
+    width: 95%;
+    padding: 10px 25px 10px 15px;
+    background-color: lightskyblue;
+    border-radius: 35px;
+
+}
+
+#committee5 {
+
+    width: 100%;
+    height: 100%;
+}
+
+#committee5 img {
+    border-radius: 55px;
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:576px) {
+    #committee {
+        background-color: rgba(5, 126, 167, 0.613);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #committee1 {
+        width: 100%;
+    }
+
+
+    #committee2 h1 {
+        width: 90%;
+        padding: 15px;
+
+    }
+
+    #committee2 {
+        display: flex;
+        width: 100%;
+    }
+
+    #committee2 #arrow {
+        margin-left: 0;
+        border: 5px solid black;
+        height: 35px;
+        width: 35px;
+        margin-right: 25px;
+    }
+
+
+    #committee2 #arrow i {
+        color: black;
+        font-size: 15px;
+    }
+
+
+
+    #committee3 {
+        display: flex;
+        /* background-color: rgb(28, 234, 45); */
+        width: 100%
+    }
+
+    #committee3 p {
+        font-size: 15px;
+        /* border: 1px solid black; */
+        margin-right: -85px;
+        margin-left: 20px;
+    }
+
+    #committee3 span {
+        border: 4px solid black;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: white;
+        /* margin-top: 65px; */
+
+
+    }
+
+    #committee3 span i {
+        font-size: 15px;
+
+        color: black;
+    }
+
+    #committee4 {
+        margin-top: -5px;
+        width: 90%;
+        /* background-color: lightskyblue; */
+        border-radius: 35px;
+        margin-left: 15px;
+    }
+
+    #committee4 p {
+        font-size: 15px;
+        /* background-color: blanchedalmond; */
+        width: 100%;
+    }
+
+    #committee5 {
+
+        width: 100%;
+        height: 100%;
+        margin: 10px 10px;
+    }
+
+
+    #committee5 img {
+        border-radius: 55px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    #committee {
+        background-color: rgba(5, 126, 167, 0.613);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 35px;
+        padding: 0;
+
+    }
+
+    #committee1 {
+        width: 100%;
+    }
+
+
+    #committee2 h1 {
+        width: 90%;
+        padding: 15px;
+
+    }
+
+    #committee2 {
+        display: flex;
+        width: 100%;
+    }
+
+    #committee2 #arrow {
+        margin-left: 0;
+        border: 5px solid black;
+        height: 45px;
+        width: 45px;
+        margin-right: 25px;
+
+    }
+
+
+    #committee2 #arrow i {
+        color: black;
+        font-size: 25px;
+    }
+
+    #committee3 {
+        display: flex;
+
+        /* background-color: rgb(28, 234, 45); */
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #committee3 p {
+        font-size: 20px;
+        /* border: 1px solid black; */
+        margin-right: -85px;
+        margin-left: 20px;
+    }
+
+    #committee3 span {
+        border: 4px solid black;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        /* margin-top: 65px; */
+
+
+    }
+
+    #committee3 span i {
+        font-size: 25px;
+
+        color: black;
+    }
+
+    #committee4 {
+        margin-top: -5px;
+        width: 90%;
+        /* background-color: lightskyblue; */
+        border-radius: 35px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    #committee4 p {
+        font-size: 20px;
+        /* background-color: blanchedalmond; */
+        width: 100%;
+    }
+
+    #committee5 {
+
+        width: 100%;
+        height: 100%;
+        margin: 20px 20px;
+    }
+
+
+    #committee5 img {
+        border-radius: 55px;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    #committee {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 25px;
+        padding: 0;
+
+    }
+
+    #committee1 {
+        width: 100%;
+    }
+
+
+    #committee2 h1 {
+        width: 90%;
+        padding: 15px;
+        font-size: 45px;
+        padding: 15px 45px;
+
+    }
+
+    #committee2 {
+        display: flex;
+        width: 100%;
+    }
+
+    #committee2 #arrow {
+        margin-left: 0;
+        border: 5px solid black;
+        height: 45px;
+        width: 45px;
+        margin-right: 25px;
+
+    }
+
+
+    #committee2 #arrow i {
+        color: black;
+        font-size: 25px;
+    }
+
+    #committee3 {
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #committee3 p {
+        font-size: 22px;
+        width: 90%;
+        /* border: 1px solid black; */
+        margin-left: 38px;
+    }
+
+    #committee3 span {
+        border: 4px solid black;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        padding: 0 5px;
+        /* margin-left: 65px; */
+
+    }
+
+
+    #committee3 span i {
+        font-size: 25px;
+        color: black;
+
+    }
+
+    #committee4 {
+        margin-top: -5px;
+        width: 90%;
+        border-radius: 35px;
+        margin-left: 35px;
+        margin-bottom: 15px;
+    }
+
+    #committee4 p {
+        font-size: 20px;
+
+        width: 100%;
+    }
+
+    #committee5 {
+
+        width: 100%;
+        height: 100%;
+        margin: 20px 40px;
+    }
+
+    #committee5 img {
+        border-radius: 55px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1440px) {
+    #committee {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 95%;
+        margin: 15px 25px;
+        padding: 25px 15px;
+
+    }
+
+    #committee1 {
+        width: 100%;
+
+    }
+
+
+    #committee2 h1 {
+        width: 100%;
+        padding: 15px;
+        font-size: 35px;
+        /* border: 1px solid black; */
+
+
+    }
+
+    #committee2 {
+        display: flex;
+        width: 100%;
+        /* background-color: aquamarine; */
+        margin-left: 15px;
+    }
+
+    #committee2 #arrow {
+        margin-left: 0;
+        border: 5px solid black;
+        height: 50px;
+        width: 50px;
+        margin-right: 25px;
+        padding: 0 5px;
+
+    }
+
+    #committee2 #arrow i {
+        color: black;
+        font-size: 25px;
+    }
+
+    #committee3 {
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+        /* background-color: blue; */
+        margin-top: 0;
+
+    }
+
+    #committee3 p {
+        font-size: 18px;
+        /* border: 1px solid black; */
+        margin-left: 38px;
+        width: 150%;
+    }
+
+    #committee3 span {
+        border: 4px solid black;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        background-color: white;
+        padding: 0 5px;
+        margin-right: 20px;
+
+    }
+
+
+    #committee3 span i {
+        font-size: 22px;
+        color: black;
+
+    }
+
+    #committee4 {
+        margin-top: -5px;
+        width: 90%;
+        border-radius: 35px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    #committee4 p {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+    #committee5 {
+
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid black; */
+
+    }
+
+    #committee5 img {
+        border-radius: 55px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+}
